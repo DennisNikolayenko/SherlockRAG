@@ -1,0 +1,30 @@
+# SherlockRAG Requirements
+# Python 3.9+
+
+# Core Dependencies
+anthropic==0.39.0           # Claude API
+chromadb==0.5.23            # Vector database
+langchain==0.3.13           # Document processing framework
+langchain-community==0.3.13 # LangChain community integrations
+
+# Embeddings
+sentence-transformers==3.3.1  # For all-MiniLM-L6-v2 embeddings
+
+# Text Processing
+beautifulsoup4==4.12.3      # HTML parsing (if needed)
+python-dotenv==1.0.1        # Environment variable management
+
+# API Server (Optional)
+flask==3.1.0                # REST API wrapper
+flask-cors==5.0.0           # CORS support for API
+
+# Testing & Evaluation
+requests==2.32.3            # HTTP requests for testing
+
+# Utilities
+tqdm==4.67.1                # Progress bars
+numpy==1.26.4               # Numerical operations (dependency)
+
+# Optional: For development
+# ipython==8.29.0           # Interactive Python shell
+# jupyter==1.1.1            # Jupyter notebooks

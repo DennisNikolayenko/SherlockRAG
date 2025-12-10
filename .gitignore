@@ -1,0 +1,198 @@
+# SherlockRAG .gitignore
+
+# ============================================
+# SENSITIVE - Never commit these!
+# ============================================
+
+# Environment variables (contains API keys!)
+.env
+*.env
+.env.local
+.env.*.local
+
+# API keys and secrets
+*_api_key*
+*secret*
+credentials.json
+
+
+# ============================================
+# PERSONAL NOTES & EXAMPLES (Not for public)
+# ============================================
+
+# Your personal learning files
+orchestrator_example.py
+Orchestrator_flow.txt
+RAG_Testing_Bible.txt
+
+# Any personal notes
+*_notes.txt
+*_scratch.py
+
+
+# ============================================
+# PYTHON
+# ============================================
+
+# Virtual environment (ENTIRE FOLDER)
+venv/
+env/
+ENV/
+.venv/
+*.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# ============================================
+# VECTOR DATABASE (Large files!)
+# ============================================
+
+# ChromaDB database files (can be rebuilt)
+data/chroma_db/
+*.db
+*.sqlite3
+*.parquet
+*.bin
+
+# Note: data/chroma_db is LARGE (~100MB+)
+# Others can rebuild it by running build_index.py
+
+
+# ============================================
+# TEST RESULTS (Generated files)
+# ============================================
+
+# Test output files (can be regenerated)
+tests/results/*.json
+
+# Keep the baseline for reference
+!tests/results/baseline_comprehensive_v1.0.json
+
+# Promptfoo cache
+.promptfoo/
+
+
+# ============================================
+# IDE & EDITOR
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+
+# ============================================
+# LOGS & TEMPORARY FILES
+# ============================================
+
+# Logs
+*.log
+logs/
+*.out
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# ============================================
+# BACKUP FILES
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*_backup.py
+*_old.py
+chatbot_v1.py
+
+
+# ============================================
+# OS SPECIFIC
+# ============================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+
+# ============================================
+# OPTIONAL: Large data files
+# ============================================
+
+# Raw data (if very large - optional)
+# Uncomment if sherlock_complete.txt is too big
+# data/raw/*.txt
+
+# Processed stories (can be regenerated)
+# Uncomment if you don't want to share parsed stories
+# data/processed/stories/*.txt
+
+
+# ============================================
+# NOTES
+# ============================================
+
+# What WILL be included in GitHub:
+# ✅ All Python scripts (chatbot.py, api_server.py, etc.)
+# ✅ Test suite files
+# ✅ Documentation (README, EVALUATION_REPORT, etc.)
+# ✅ Configuration files (promptfooconfig-api.yaml)
+# ✅ Requirements.txt
+# ✅ Raw data (sherlock_complete.txt) - IF not too large
+# ✅ One baseline test result (for reference)
+
+# What will NOT be included:
+# ❌ .env (API keys)
+# ❌ venv/ (virtual environment)
+# ❌ data/chroma_db/ (vector database)
+# ❌ Personal notes and examples
+# ❌ Test result JSON files (except baseline)
+# ❌ __pycache__/ (Python cache)

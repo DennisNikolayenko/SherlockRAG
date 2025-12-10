@@ -1,0 +1,612 @@
+[
+  {
+    "id": 1,
+    "title": "A Study In Scarlet",
+    "filename": "01_A_Study_In_Scarlet.txt",
+    "year": 1887,
+    "type": "novel",
+    "collection": "Novels",
+    "word_count": 43383,
+    "char_count": 243026
+  },
+  {
+    "id": 2,
+    "title": "The Sign of the Four",
+    "filename": "02_The_Sign_of_the_Four.txt",
+    "year": 1890,
+    "type": "novel",
+    "collection": "Novels",
+    "word_count": 43070,
+    "char_count": 235695
+  },
+  {
+    "id": 3,
+    "title": "A Scandal in Bohemia",
+    "filename": "03_A_Scandal_in_Bohemia.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 8531,
+    "char_count": 47301
+  },
+  {
+    "id": 4,
+    "title": "The Red-Headed League",
+    "filename": "04_The_Red-Headed_League.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9101,
+    "char_count": 50083
+  },
+  {
+    "id": 5,
+    "title": "A Case of Identity",
+    "filename": "05_A_Case_of_Identity.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 6975,
+    "char_count": 38541
+  },
+  {
+    "id": 6,
+    "title": "The Boscombe Valley Mystery",
+    "filename": "06_The_Boscombe_Valley_Mystery.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9618,
+    "char_count": 52184
+  },
+  {
+    "id": 7,
+    "title": "The Five Orange Pips",
+    "filename": "07_The_Five_Orange_Pips.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 7316,
+    "char_count": 40109
+  },
+  {
+    "id": 8,
+    "title": "The Man with the Twisted Lip",
+    "filename": "08_The_Man_with_the_Twisted_Lip.txt",
+    "year": 1891,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9198,
+    "char_count": 49997
+  },
+  {
+    "id": 9,
+    "title": "The Adventure of the Blue Carbuncle",
+    "filename": "09_The_Adventure_of_the_Blue_Carbuncle.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 7811,
+    "char_count": 42815
+  },
+  {
+    "id": 10,
+    "title": "The Adventure of the Speckled Band",
+    "filename": "10_The_Adventure_of_the_Speckled_Band.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9807,
+    "char_count": 53851
+  },
+  {
+    "id": 11,
+    "title": "The Adventure of the Engineer's Thumb",
+    "filename": "11_The_Adventure_of_the_Engineer's_Thumb.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 8287,
+    "char_count": 45344
+  },
+  {
+    "id": 12,
+    "title": "The Adventure of the Noble Bachelor",
+    "filename": "12_The_Adventure_of_the_Noble_Bachelor.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 8106,
+    "char_count": 44859
+  },
+  {
+    "id": 13,
+    "title": "The Adventure of the Beryl Coronet",
+    "filename": "13_The_Adventure_of_the_Beryl_Coronet.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9680,
+    "char_count": 51847
+  },
+  {
+    "id": 14,
+    "title": "The Adventure of the Copper Beeches",
+    "filename": "14_The_Adventure_of_the_Copper_Beeches.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Adventures",
+    "word_count": 9949,
+    "char_count": 53938
+  },
+  {
+    "id": 15,
+    "title": "Silver Blaze",
+    "filename": "15_Silver_Blaze.txt",
+    "year": 1892,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 9575,
+    "char_count": 53402
+  },
+  {
+    "id": 16,
+    "title": "The Yellow Face",
+    "filename": "16_The_Yellow_Face.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7500,
+    "char_count": 39742
+  },
+  {
+    "id": 17,
+    "title": "The Stock-Broker's Clerk",
+    "filename": "17_The_Stock-Broker's_Clerk.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 6785,
+    "char_count": 37140
+  },
+  {
+    "id": 18,
+    "title": "The \"Gloria Scott\"",
+    "filename": "18_The_Gloria_Scott.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7838,
+    "char_count": 42123
+  },
+  {
+    "id": 19,
+    "title": "The Musgrave Ritual",
+    "filename": "19_The_Musgrave_Ritual.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7571,
+    "char_count": 41417
+  },
+  {
+    "id": 20,
+    "title": "The Reigate Squires",
+    "filename": "20_The_Reigate_Squires.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7199,
+    "char_count": 40244
+  },
+  {
+    "id": 21,
+    "title": "The Crooked Man",
+    "filename": "21_The_Crooked_Man.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7129,
+    "char_count": 38799
+  },
+  {
+    "id": 22,
+    "title": "The Resident Patient",
+    "filename": "22_The_Resident_Patient.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 6610,
+    "char_count": 37113
+  },
+  {
+    "id": 23,
+    "title": "The Greek Interpreter",
+    "filename": "23_The_Greek_Interpreter.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 6999,
+    "char_count": 39032
+  },
+  {
+    "id": 24,
+    "title": "The Naval Treaty",
+    "filename": "24_The_Naval_Treaty.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 12606,
+    "char_count": 69251
+  },
+  {
+    "id": 25,
+    "title": "The Final Problem",
+    "filename": "25_The_Final_Problem.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "Memoirs",
+    "word_count": 7158,
+    "char_count": 39225
+  },
+  {
+    "id": 26,
+    "title": "The Adventure of the Empty House",
+    "filename": "26_The_Adventure_of_the_Empty_House.txt",
+    "year": 1903,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 8695,
+    "char_count": 48108
+  },
+  {
+    "id": 27,
+    "title": "The Adventure of the Norwood Builder",
+    "filename": "27_The_Adventure_of_the_Norwood_Builder.txt",
+    "year": 1903,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 9219,
+    "char_count": 51236
+  },
+  {
+    "id": 28,
+    "title": "The Adventure of the Dancing Men",
+    "filename": "28_The_Adventure_of_the_Dancing_Men.txt",
+    "year": 1903,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 9708,
+    "char_count": 52900
+  },
+  {
+    "id": 29,
+    "title": "The Adventure of the Solitary Cyclist",
+    "filename": "29_The_Adventure_of_the_Solitary_Cyclist.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 7830,
+    "char_count": 43052
+  },
+  {
+    "id": 30,
+    "title": "The Adventure of the Priory School",
+    "filename": "30_The_Adventure_of_the_Priory_School.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 11464,
+    "char_count": 63334
+  },
+  {
+    "id": 31,
+    "title": "The Adventure of Black Peter",
+    "filename": "31_The_Adventure_of_Black_Peter.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 8103,
+    "char_count": 44475
+  },
+  {
+    "id": 32,
+    "title": "The Adventure of Charles Augustus Milverton",
+    "filename": "32_The_Adventure_of_Charles_Augustus_Milverton.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 6705,
+    "char_count": 37117
+  },
+  {
+    "id": 33,
+    "title": "The Adventure of the Six Napoleons",
+    "filename": "33_The_Adventure_of_the_Six_Napoleons.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 8325,
+    "char_count": 45701
+  },
+  {
+    "id": 34,
+    "title": "The Adventure of the Three Students",
+    "filename": "34_The_Adventure_of_the_Three_Students.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 6462,
+    "char_count": 35667
+  },
+  {
+    "id": 35,
+    "title": "The Adventure of the Golden Pince-Nez",
+    "filename": "35_The_Adventure_of_the_Golden_Pince-Nez.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 8927,
+    "char_count": 49049
+  },
+  {
+    "id": 36,
+    "title": "The Adventure of the Missing Three-Quarter",
+    "filename": "36_The_Adventure_of_the_Missing_Three-Quarter.txt",
+    "year": 1904,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 8017,
+    "char_count": 44612
+  },
+  {
+    "id": 37,
+    "title": "The Adventure of the Abbey Grange",
+    "filename": "37_The_Adventure_of_the_Abbey_Grange.txt",
+    "year": 1905,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 9147,
+    "char_count": 49497
+  },
+  {
+    "id": 38,
+    "title": "The Adventure of the Second Stain",
+    "filename": "38_The_Adventure_of_the_Second_Stain.txt",
+    "year": 1905,
+    "type": "short_story",
+    "collection": "Return",
+    "word_count": 9627,
+    "char_count": 54068
+  },
+  {
+    "id": 39,
+    "title": "The Hound of the Baskervilles",
+    "filename": "39_The_Hound_of_the_Baskervilles.txt",
+    "year": 1902,
+    "type": "novel",
+    "collection": "Novels",
+    "word_count": 59176,
+    "char_count": 323657
+  },
+  {
+    "id": 40,
+    "title": "The Valley Of Fear",
+    "filename": "40_The_Valley_Of_Fear.txt",
+    "year": 1915,
+    "type": "novel",
+    "collection": "Novels",
+    "word_count": 57603,
+    "char_count": 317628
+  },
+  {
+    "id": 41,
+    "title": "His Last Bow",
+    "filename": "41_His_Last_Bow.txt",
+    "year": 1917,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 145,
+    "char_count": 864
+  },
+  {
+    "id": 42,
+    "title": "The Adventure of Wisteria Lodge",
+    "filename": "42_The_Adventure_of_Wisteria_Lodge.txt",
+    "year": 1908,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 11406,
+    "char_count": 63310
+  },
+  {
+    "id": 43,
+    "title": "The Adventure of the Cardboard Box",
+    "filename": "43_The_Adventure_of_the_Cardboard_Box.txt",
+    "year": 1893,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 8637,
+    "char_count": 46623
+  },
+  {
+    "id": 44,
+    "title": "The Adventure of the Red Circle",
+    "filename": "44_The_Adventure_of_the_Red_Circle.txt",
+    "year": 1911,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 7298,
+    "char_count": 40420
+  },
+  {
+    "id": 45,
+    "title": "The Adventure of the Bruce-Partington Plans",
+    "filename": "45_The_Adventure_of_the_Bruce-Partington_Plans.txt",
+    "year": 1908,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 10674,
+    "char_count": 60175
+  },
+  {
+    "id": 46,
+    "title": "The Adventure of the Dying Detective",
+    "filename": "46_The_Adventure_of_the_Dying_Detective.txt",
+    "year": 1913,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 5775,
+    "char_count": 31896
+  },
+  {
+    "id": 47,
+    "title": "The Disappearance of Lady Frances Carfax",
+    "filename": "47_The_Disappearance_of_Lady_Frances_Carfax.txt",
+    "year": 1911,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 7671,
+    "char_count": 42832
+  },
+  {
+    "id": 48,
+    "title": "The Adventure of the Devil's Foot",
+    "filename": "48_The_Adventure_of_the_Devil's_Foot.txt",
+    "year": 1910,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 9974,
+    "char_count": 56096
+  },
+  {
+    "id": 49,
+    "title": "His Last Bow: The War Service of Sherlock Holmes",
+    "filename": "49_His_Last_Bow:_The_War_Service_of_Sherlock_Holmes.txt",
+    "year": 1917,
+    "type": "short_story",
+    "collection": "His Last Bow",
+    "word_count": 6674,
+    "char_count": 37113
+  },
+  {
+    "id": 50,
+    "title": "The Illustrious Client",
+    "filename": "50_The_Illustrious_Client.txt",
+    "year": 1924,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 9734,
+    "char_count": 53320
+  },
+  {
+    "id": 51,
+    "title": "The Blanched Soldier",
+    "filename": "51_The_Blanched_Soldier.txt",
+    "year": 1926,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 7708,
+    "char_count": 41989
+  },
+  {
+    "id": 52,
+    "title": "The Adventure Of The Mazarin Stone",
+    "filename": "52_The_Adventure_Of_The_Mazarin_Stone.txt",
+    "year": 1921,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 5645,
+    "char_count": 31584
+  },
+  {
+    "id": 53,
+    "title": "The Adventure of the Three Gables",
+    "filename": "53_The_Adventure_of_the_Three_Gables.txt",
+    "year": 1926,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 6045,
+    "char_count": 33068
+  },
+  {
+    "id": 54,
+    "title": "The Adventure of the Sussex Vampire",
+    "filename": "54_The_Adventure_of_the_Sussex_Vampire.txt",
+    "year": 1924,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 5963,
+    "char_count": 32908
+  },
+  {
+    "id": 55,
+    "title": "The Adventure of the Three Garridebs",
+    "filename": "55_The_Adventure_of_the_Three_Garridebs.txt",
+    "year": 1924,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 6190,
+    "char_count": 33844
+  },
+  {
+    "id": 56,
+    "title": "The Problem of Thor Bridge",
+    "filename": "56_The_Problem_of_Thor_Bridge.txt",
+    "year": 1922,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 9574,
+    "char_count": 52545
+  },
+  {
+    "id": 57,
+    "title": "The Adventure of the Creeping Man",
+    "filename": "57_The_Adventure_of_the_Creeping_Man.txt",
+    "year": 1923,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 7652,
+    "char_count": 42980
+  },
+  {
+    "id": 58,
+    "title": "The Adventure of the Lion's Mane",
+    "filename": "58_The_Adventure_of_the_Lion's_Mane.txt",
+    "year": 1926,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 7177,
+    "char_count": 39702
+  },
+  {
+    "id": 59,
+    "title": "The Adventure of the Veiled Lodger",
+    "filename": "59_The_Adventure_of_the_Veiled_Lodger.txt",
+    "year": 1927,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 4463,
+    "char_count": 24081
+  },
+  {
+    "id": 60,
+    "title": "The Adventure of Shoscombe Old Place",
+    "filename": "60_The_Adventure_of_Shoscombe_Old_Place.txt",
+    "year": 1927,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 6236,
+    "char_count": 33901
+  },
+  {
+    "id": 61,
+    "title": "The Adventure of the Retired Colourman",
+    "filename": "61_The_Adventure_of_the_Retired_Colourman.txt",
+    "year": 1926,
+    "type": "short_story",
+    "collection": "Case-Book",
+    "word_count": 5659,
+    "char_count": 31660
+  }
+]
