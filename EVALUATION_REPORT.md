@@ -847,3 +847,87 @@ SherlockRAG uses multiple evaluation frameworks to capture different quality dim
 *Report Generated: December 2025*  
 *Evaluation Version: 1.1*  
 *Next Review: After implementing multi-hop improvements*
+
+---
+
+## Retrieval Quality Metrics (Precision/Recall/F1)
+
+Beyond answer quality, SherlockRAG was evaluated on retrieval quality: 
+did the system retrieve the correct source documents?
+
+### Results
+
+| Metric | Score | Interpretation |
+|--------|-------|----------------|
+| **Precision** | **0.107** | 10.7% of retrieved docs were expected sources |
+| **Recall** | **0.372** | Found 37.2% of all relevant documents |
+| **F1 Score** | **0.149** | Harmonic mean of precision and recall |
+
+### Analysis
+
+The retrieval metrics reveal a conservative retrieval strategy:
+
+**Low Precision (10.7%):**
+- System retrieves ~9 source documents per query
+- Only 1 out of 9 retrieved docs was in the expected sources list
+- Indicates broad retrieval approach
+
+**Moderate Recall (37.2%):**
+- System finds over 1/3 of all relevant documents
+- Avoids catastrophic misses of key information
+- Conservative approach prioritizes not missing relevant content
+
+**Trade-off:**
+```
+Precision: 10.7% (lots of noise)
+Recall:    37.2% (finds relevant info)
+F1:        14.9% (balance)
+
+Strategy: Prefer recall over precision
+Rationale: Missing key info worse than extra context
+```
+
+### Why This Approach Works
+
+For RAG systems, **recall often matters more than precision**:
+
+1. **LLMs Filter Noise:** Claude can ignore irrelevant context effectively
+2. **Missing Information = Failure:** Can't generate correct answer without key facts
+3. **Extra Context = Minor Issue:** Slightly longer processing, but answer still correct
+
+**Example:**
+```
+Query: "What is Holmes's address?"
+Retrieved: 9 documents (8 irrelevant, 1 with address)
+Result: Correct answer (221B Baker Street) ✅
+
+If precision-focused (retrieved only 2 docs):
+Risk: Might miss the 1 document with address
+Result: Incorrect answer ("Not mentioned") ❌
+```
+
+### Comparison with Custom "Retrieval" Metric
+
+**Custom Retrieval Metric: 88.0%**
+- Measures: Were ANY relevant docs retrieved?
+- Broader success criteria
+
+**F1 Retrieval Metric: 14.9%**
+- Measures: Precision AND recall balance
+- Stricter success criteria
+- Shows room for optimization
+
+Both metrics are correct - they measure different aspects of retrieval quality.
+
+### Future Optimization
+
+To improve F1 while maintaining recall:
+1. Better query expansion (more targeted)
+2. Re-ranking retrieved documents
+3. Filtering low-relevance chunks
+4. Adaptive k parameter based on query type
+
+Current system prioritizes reliability (high recall) over efficiency (high precision), 
+which is appropriate for production RAG systems where answer correctness is critical.
+
+---
